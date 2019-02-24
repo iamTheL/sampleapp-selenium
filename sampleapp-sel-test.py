@@ -7,7 +7,7 @@ import re
 
 
 
-driver = webdriver.Chrome()
+driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver")
 driver.get('http://34.220.148.168:8888/project-1.0-RAMA/')
 example_images = driver.find_elements(By.TAG_NAME, 'img')
 
