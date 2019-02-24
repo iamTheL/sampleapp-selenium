@@ -24,10 +24,10 @@ else :
    
 src = driver.page_source
 text_found = re.search(r'Hello DevOps Engineers and Architects!', src)
-print(text_found)
+
 if not text_found :
-	print("text not there")
+	print("Hello DevOps Engineers and Architects! not there")
 else:
-	print("text Found")
+	print("Hello DevOps Engineers and Architects! Found")
 	
  
